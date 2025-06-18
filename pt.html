@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+				<meta charset="UTF-8">
+				<title>Titre de la page</title>
+				<style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color:#ffff;
+    }
+
+    nav {
+      background-color: whitesmoke;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      flex-wrap: wrap;
+    }
+
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    nav input[type="checkbox"] {
+      display: none;
+    }
+
+    nav .menu-icon {
+      display: none;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: black;
+      text-decoration: none;
+      padding: 8px 12px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+      border-radius: 4px;
+    }
+    img{
+    	border:solid 2px black;
+    	border-radius:100%;
+    	align-items: center;
+    	margin-left:130px;
+    }
+    p{
+    	color:#ffff;
+    }
+    div{
+    	text-align:center;
+    	border:solid 2px black;
+    	border-radius:1%;
+    	color:black;
+    	margin-top:30px;
+    	transition:all 0.5s ease;
+      padding: 30px;
+      background-color: whitesmoke;
+      box-shadow: 2px 2px 2px 2px;
+    }
+    div:hover{
+    	border-bottom:solid 10px black;
+    	transition:ease0.5s ease;
+    }
+    div #a1{
+    	text-decoration:none;
+    	color: black;
+    	background-color:#ffff;
+    	font-size:20px;
+    	margin-top:10px;
+    	border:solid 2px black;
+    	border-radius:20%;
+    }
+    P{
+      color: black;
+    }
+    @media (max-width: 768px) {
+      nav .menu-icon {
+        display: block;
+      }
+
+      nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        margin-top: 10px;
+      }
+
+      nav input:checked + .menu-icon + ul {
+        display: flex;
+      }
+    }
+     </style>
+</head>
+<body>
+				
+  <nav>
+    <div class="logo">GHOSTkiller93</div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <ul>
+      <li><a href="ec1.html">Accueil</a></li>
+      <li><a href="ec2.html">s'inscrire</a></li>
+      <li><a href="tel:0808775546">Contact</a></li>
+    </ul>
+  </nav>
+ <div><h2> Bienvenue je me nomme jack</h2></div>
+ <div> développeur web spetialisé en<br>html et css</div>
+ <div> contenue:<br>formation en: html, css, phyton,cheval de troie</div>
+ <div> réalisation:<br> site e-commerce,calculatrice,site d'apprentissage</div>
+ <div>mon plus grand projet:<br><a id="a1" href="ec11.html">voir projet</a></div>
+ <div>parcour:<br><p>etude maternel: complex scolaire saint rombaut<br>etude primaire: complex scolaire saint rombaut<br>etude secondaire : collège saint Frédéric<br>etude humanitaire : collège saint Frédéric<br>etude universitaire : université protestantes au congo</p></div>
+ <div><p> expérience professionnelle :<br>travail a la VITRINE MMP et a B SAFIE comme gèrent des site Web</p></div><div><p>contact:<br><h1>cliquer sur le menu pour me contacter</h1></p></div>
+</body>
+</html>
