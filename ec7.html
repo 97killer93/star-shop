@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <style>		
     nav ul li a {
       color: black;
@@ -148,14 +150,19 @@
     </ul>
   </nav> 
   <h1>Article ajouter au panier</h1>
-    <div id="d1">Aucun article au panier</div>
-    <div id="d2">
+    <div id="d1" data-aos="fade-right">Aucun article au panier</div>
+    <div id="d2"  data-aos="flip-left">
         <h2>TOTAL                         <b> 0$</b></h2>
         <button onclick="f()">valider la commende</button>
         </div>
-        <div id="d3"><input type="text" id="i1" placeholder="Recherche d'autre produit a ajouter"> <a href="ec22.html" id="">voir les article</a>
+        <div id="d3"  data-aos="fade-left"><input type="text" id="i1" placeholder="Recherche d'autre produit a ajouter"> <a href="ec22.html" id="">voir les article</a>
             </div>
-        <div id="d4"><P>STARshops</P></div>
+        <div id="d4" data-aos="flip-right"><P>STARshops</P></div>
         <h3>/////</h3>
+       </script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 				<meta charset="UTF-8">
 				<title>Titre de la page</title>
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 				<style>
     body {
       margin: 0;
@@ -60,11 +62,11 @@
     }
     #d2{
     				position:relative;
-    				top:-510px;
+    				top:-550px;
             left: 0px;
     				display:block;
     				padding:30px;
-    				transition:all 10s ease;
+    				transition:all 0.5s ease;
     }
 
     #a1{
@@ -128,17 +130,22 @@
       <li><a href="tel:0808775546">Contact</a></li>
     </ul>
   </nav>
-  <div id="d1">
-  				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDTeO9WVw0zym3K5cJ_damf4rbUBqQM69dGmp00Gb6izrblI6cFVFaK6o&s=10" alt="img" width="1000px">
+  <div id="d1" data-aos="zoom-in-up">
+  				<img src="https://t3.ftcdn.net/jpg/06/70/54/72/360_F_670547204_mKrRgeaJpfdD3YIYX0mJVYKonXFsDjIw.jpg" alt="img" width="1000px">
   </div>
-  <div id="d2">
+  <div id="d2"  data-aos="fade-right">
   				<a id="a1" href="ec5.html">Homme</a>
   				<a id="a1" href="ec6.html">femme</a>
   				<a id="a1" href="ec24.html">populaire</a>
   </div>
-  <div id="d3">
+  <div id="d3" data-aos="fade-up">
   			<p> Wasshap :0811104333</p>
   			<p>email:jackmabs61@gmail.com</p>
   </div>
+   </script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
 </body>
 </html>
