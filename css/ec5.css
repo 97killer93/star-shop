@@ -2,7 +2,7 @@
 					 margin:0%;			
 					 padding:0%;			   	
 			    	}
-				#d2{
+				.d2{
 					width:250px;
 					background-color:whitesmoke;
 					color:#ffff;
@@ -13,7 +13,7 @@
 					height:500px;
 					transition: all 1s ease;
 					   }
-		  #d2:hover{
+		  .d2:hover{
 					background-color:#ffff;
 					color:black;
 					box-shadow: 2px 2px 2px 2px rgb(52, 51, 51) ;
