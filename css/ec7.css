@@ -1,4 +1,5 @@
- nav ul li a {
+
+nav ul li a {
       color: black;
       text-decoration: none;
       padding: 8px 12px;
@@ -41,8 +42,8 @@
       padding: 0;
     }
     #d1{
-        border: solid 2px black;
-        padding: 150px ;
+      border: solid 1px black;
+        padding: 120px ;
         width: 500px;
         font-size: 30px;
     }
@@ -53,9 +54,9 @@
         width: 100%;
     }
     #d2{
-        position: relative;
+        position: absolute;
         left: 850PX;
-        top: -340px;
+        top: 150px;
         border: solid 2px black;
         padding: 50px;
         width: 400px;
@@ -63,18 +64,18 @@
         text-align: center;
     }
     #d3{
-        position: relative;
+        position: absolute;
         left: 850px;
-        top: -320px;
+        top: 400px;
         font-size: 20px;
     }
     input{
         font-size: 25px;
     }
     #d4{
-        position: relative;
+        position: absolute;
         left: 850px;
-        top:-300px;
+        top:510px;
         border: solid 2px black;
         padding: 50px;
         font-size: 50px;
