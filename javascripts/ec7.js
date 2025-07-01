@@ -49,6 +49,21 @@ function displayCart() {
 // Pour le bouton "valider la commande"
 function validerCommande() {
     alert("Merci pour votre commande !");
+
+    const cart = getCart();
+
+    // Vérification si le panier est vide
+    if (cart.length === 0) {
+        alert("Votre panier est vide. Veuillez ajouter des articles avant de valider la commande.");
+        return;
+    }
+
+    const total = cart.reduce((sum, item) => {
+        const prixNum = parseFloat(item.prix.replace('€', '').replace(',', '.')) || 0;
+        return sum + (prixNum * item.qty);
+    }, 0).toFixed(2);
+
+    window.location.href = `https://pay.devforge.space/pay/v1/253e830ca164daa2a859cd515c9e013c78a6c1e45602a77b86a5e8bdd0420553?amount=${total}&currency=CDF&reference=starshop-001`; // Redirection vers la page de paiement
     setCart([]);
     displayCart();
 }
